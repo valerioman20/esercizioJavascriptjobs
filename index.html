@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ricerca di Lavoro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <img src="logo/logo.png">
+    <nav>
+        <ul>
+            <li><i class="fa-solid fa-house"></i> <a href="#home">Home</a></li>
+            <li><i class="fa-solid fa-briefcase"></i> <a href="#works">Lavori</a></li>
+            <li><i class="fa-solid fa-address-book"></i> <a href="#contact">info</a></li>
+        </ul>
+    </nav>
+</header>
+  <h1>Cerca il tuo lavoro</h1>
+  <div class="container">
+  <label for="titleInput">Posizione Lavorativa:</label>
+  <input type="text" id="titleInput" name="titleInput" placeholder="Inserisci lavoro ">
+  
+  <label for="locationInput">Posizione Geografica:</label>
+  <input type="text" id="locationInput" name="locationInput" placeholder="Inserisci posizione ">
+  
+  <button id="searchButton">Cerca</button>
+  </div>
+
+  <!-- Elemento div dove verranno mostrati i risultati della ricerca -->
+  <div id="results">
+    <!-- I risultati della ricerca verranno aggiunti qui tramite JavaScript -->
+  </div>
+
+<script src="https://kit.fontawesome.com/5d9607a4e2.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
